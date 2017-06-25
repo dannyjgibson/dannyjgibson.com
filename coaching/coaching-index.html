@@ -18,6 +18,14 @@
     <![endif]-->
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 		    <nav class="navbar navbar-inverse navbar-fixed-top">
 		      <div class="container">
@@ -49,11 +57,15 @@
 				<div class="panel panel-default jumbo-text-panel">
   				<div class="panel-body">
 						<h1>Hi, I'm Danny.</h1>
-						<p>I'm a Head Women's Track Coach at Tulsa's <a href="http://hale.tulsa.schooldesk.net/">Nathan Hale High School.</a></p>
-						<p>This page is for the success of our student-athletes and their families.</p>
-						<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+						<p>I'm the former Head Women's Track Coach at Tulsa's <a href="http://hale.tulsa.schooldesk.net/">Nathan Hale High School.</a></p>
+						<p>The team is now coached by the wonderful <a href="https://www.donorschoose.org/we-teach/4063446?projects=true" target="_blank">Walter Williams</a>. Stay posted on their success below.</p>
+            <!-- <div class="fb-like" data-href="https://www.facebook.com/NathanHaleTrack/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div> -->
   				</div>
-				</div>
+          <div class="social-buttons">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FNathanHaleTrack%2F&width=140&layout=button_count&action=like&size=large&show_faces=false&share=true&height=46&appId" width="140" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <a class="btn btn-success" href="https://www.donorschoose.org/we-teach/4063446?projects=true" role="button" target="_blank">Give</a>
+          </div>
+        </div>
 
       </div>
     </div>
